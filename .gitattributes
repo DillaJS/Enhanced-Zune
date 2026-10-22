@@ -1,3 +1,4 @@
+# Preserve the exact RC7 compiler inputs across checkouts on different platforms.
 * -text
 *.md text eol=lf
 .gitignore text eol=lf

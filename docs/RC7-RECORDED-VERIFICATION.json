@@ -1,0 +1,52 @@
+{
+  "version": "1.0.0-rc.7",
+  "installer_sha256": "85EDF4FC335F5D7FF86E7EF96C4540A9340DA33FE6E71D68BB10D066521BD9EA",
+  "installer_size": 85229568,
+  "status": "passed recorded packaging checks",
+  "installer_rebuild_byte_identical": true,
+  "isolated_transaction_scenarios": [
+    "All twelve components reconstruct exactly from verified stock inputs",
+    "Repeat installation is a verified no-op",
+    "Normal restore returns original files and removes only the six added components",
+    "Injected failures at every replacement boundary automatically restore originals",
+    "Unknown modifications rejected without replacement",
+    "Modified service / dependency rejected before enhancement writes",
+    "Repair rebuilds missing helper and modified Microsoft component from verified backup",
+    "Damaged recovery backup rejected before restoring any file",
+    "Repair and restore protect unknown later modifications",
+    "Persisted interrupted transaction survives a fresh read and recovers a mixed state",
+    "Custom background edits recognized; reinstall/repair preserve them; restore archives them",
+    "Interrupted repair/recovery resumes from a persisted journal with missing components",
+    "Same new EXE can verify/restore the earlier RC2 backup, then install RC7; old-version refusal is non-destructive",
+    "Original reinstall with current helper leftovers is recovered through a verified backup",
+    "Unknown helper leftovers are protected with no partial cleanup",
+    "Damaged backups stop reinstall recovery before deleting any helper",
+    "Test mutation guard rejects paths outside disposable workspace"
+  ],
+  "legacy_recovery": "RC1 through RC6 passed",
+  "repeat_one_checks": 20,
+  "bridge_checks": 31,
+  "mixer_checks": 22,
+  "queue_and_pause_output_checks": 19,
+  "crossfade_defaults": "off; 5 second initial duration; 0–10 second range",
+  "real_clr2_defaults_and_preference_bounds_checked": true,
+  "self_contained_runtime": "8.0.31; WAV/MP3/WMA decoder startup and parent-exit cleanup checked with global .NET environment roots hidden",
+  "working_installation_files_preserved": 508,
+  "old_rc62_installer_preserved": true,
+  "new_runtime_payloads": [
+    "ZuneCrossfadeBridge.dll",
+    "ZuneCrossfadeHost.exe",
+    "ZuneCrossfade-Licenses.txt"
+  ],
+  "prior_runtime_changes_scoped_to": [
+    "ZuneShell.dll",
+    "ZuneScalingSettings.dll",
+    "ZuneShellResources.dll / MANAGEMENTGENERAL.UIX"
+  ],
+  "all_other_prior_public_runtime_payloads_preserved": true,
+  "private_backgrounds_or_photos_bundled": false,
+  "uploaded_or_published": false,
+  "actual_new_installer_run_on_working_zune": false,
+  "listening": "User confirmed the separate test version; no agent playback/visual test or fresh clean-machine acceptance performed.",
+  "os_servicing": "Decision and mocked-script checks passed; this build did not install Windows components or reboot."
+}

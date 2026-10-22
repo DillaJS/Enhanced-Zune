@@ -1,23 +1,39 @@
-# Enhanced Zune 1.0.0 RC7
+# Enhanced Zune 4.8
 
-For original x64 Zune 4.8.2345 on Windows 10/11. This package contains enhancements and optional crossfading; original Microsoft Zune installation media is not bundled.
+Community enhancements for the original **x64 Zune 4.8.2345** desktop application on Windows 10/11. This is an enhancement project, not a replacement Zune application or a restoration of Microsoft's discontinued online services. It is not affiliated with Microsoft.
 
-Run `Enhanced-Zune-Setup-1.0.0-rc.7.exe`. If Zune is absent, the setup offers the verified original-media download/install flow. Windows Media Player Legacy and .NET Framework 3.5 prerequisite handling is retained. Close Zune before installing or restoring.
+## What changed?
 
-**Upgrading RC6/RC6.2:** use this setup's **Restore originals** with the existing verified backup, then **Install / verify**. Unknown manual modifications remain protected and may require their own matching backup. The installer does not guess or overwrite them.
+- Interface scaling, clearer controls, an optional dark theme and three custom background slots.
+- Artwork-quality levels and local artist photos for desktop views.
+- Local Mixview improvements and collection navigation.
+- A renderer responsiveness repair, repeat-one playback, and optional crossfading.
+- An installer with compatibility checks, verified backups, recovery, and prerequisite guidance.
 
-## Crossfading
+See [how the changes work](docs/HOW-IT-WORKS.md), [source coverage](docs/SOURCE-COVERAGE.md), and [known limitations](KNOWN-LIMITATIONS.md). These are scoped improvements; claims of universally eliminated lag or restored online services would be inaccurate.
 
-Open **Settings → Software → General → Crossfading**. It starts **off**. Enable it, choose 0–10 seconds of overlap, then click **OK** or **Apply**. It applies to supported local music files. Videos/streams stay with native playback. Repeat one does not overlap another track. Selecting another track explicitly starts that selection.
+## Downloads and installation
 
-The Zune player continues to manage the playlist and UI while a separate local audio component renders overlaps. Pause/resume, seeking and volume are synchronized. Decoder/host failures return to native audio. This follows WMP-style on/off and overlap controls; no claim is made of an identical proprietary fade curve.
+The preserved release is **1.0.0-rc.7**. This repository preparation has not created a new installer version. At present this is a local staging repository; there is no public download URL yet.
 
-A self-contained x64 .NET runtime is embedded in the audio helper. Users do not install a separate .NET 8 runtime. The helper has no startup task or service and exits with Zune.
+After publication, obtain `Enhanced-Zune-Setup-1.0.0-rc.7.exe` from this project's Releases page and compare its SHA-256 with the release checksums. Original Microsoft Zune installation media is not bundled. Setup supports the verified original-media download/install flow; missing Windows components may require Windows servicing, an Internet connection, or a restart.
 
-Profile/sign-in emulation and internet blocking are not included. Existing library files, artist-photo data and personal files are outside the installation transaction.
+Close Zune before installing or restoring. Existing earlier enhancement releases require **Restore originals**, followed by **Install / verify**, using the matching verified backup. Do not manually delete the backup or bypass an unknown-file warning. See [the original RC7 usage notes](docs/RC7-ORIGINAL-README.md).
 
-## Source and verification
+## Source and rebuilds
 
-The matching engineering-source ZIP rebuilds this exact installer from its included frozen payload, using the recorded toolchain. It also includes the newly authored crossfade bridge/audio engine, repeat-one repair, UI markup and tests. Historical enhancement patches and Microsoft internals are not represented as complete open-source code; see REBUILD.md and LICENSING-AND-SOURCES.md.
+Start with [BUILDING.md](BUILDING.md). The installer C# and newly authored repeat-one/crossfade implementation are browsable here. The matching frozen payload is distributed separately as a release asset to keep large binaries out of Git.
 
-Checks distinguish isolated installation/recovery and synthetic audio/bridge tests from actual OS or listening checks. The user confirmed the separate playback test locally. This packaging pass does not reinstall or control the working Zune.
+**This is not complete editable source for every historical enhancement.** Some earlier changes remain frozen binary deltas. Rebuilding the installer around those deltas is different from regenerating every patched component from source. [The coverage table](docs/SOURCE-COVERAGE.md) describes that distinction explicitly.
+
+The original engineering package recorded a byte-identical installer rebuild. [Verification and its limits](docs/VERIFICATION.md) explain what that establishes and what it does not.
+
+## Project history and participation
+
+Git history begins with an import of the preserved RC7 engineering source, followed by repository documentation. Earlier development commits were not preserved here; no reconstructed timeline is presented as original history. See [CHANGELOG.md](CHANGELOG.md).
+
+For problems, include the enhancement version, Windows version, actions that reproduce the issue, and whether crossfading is enabled. Remove usernames, music paths, device IDs and other personal information before sharing logs. Do not upload Microsoft installation files, private music, or signing keys. See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Licensing
+
+Microsoft Zune remains proprietary. The repository's mixed source, patch and artwork provenance does **not** justify a blanket open-source license. Licensing of project-authored material remains to be decided before publication; dependency notices are retained. See [LICENSE.md](LICENSE.md) and [LICENSING-AND-SOURCES.md](LICENSING-AND-SOURCES.md).
