@@ -1,6 +1,6 @@
 # Enhanced Zune 1.0.0 RC7
 
-**Draft notes for an unpublished local update candidate.** The first publicly shared installer was RC6.2, which the owner reports is still on the website. Do not present these notes as changes already delivered to those users.
+**RC7 release candidate.** The first publicly shared installer was RC6.2. These changes are in RC7; they are not present in the older RC6.2 website download.
 
 The preserved installer is unchanged by repository preparation. It adds optional crossfading and repairs the repeat-one selection/playlist defect present in the public RC6.2 baseline while retaining earlier visual, local-photo, Mixview and installer improvements. See the changelog and limitations before installing.
 
