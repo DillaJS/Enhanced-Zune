@@ -14,7 +14,9 @@ See [how the changes work](docs/HOW-IT-WORKS.md), [source coverage](docs/SOURCE-
 
 ## Downloads and installation
 
-The preserved release is **1.0.0-rc.7**. This repository preparation has not created a new installer version. At present this is a local staging repository; there is no public download URL yet.
+The first publicly shared installer is **1.0.0-rc.6.2**. The project owner reports that the website still distributes that version. **RC6.2 has the repeat-one defect**: repeat one can block explicit track selection and, in some playlist cases, let audio advance while the previous item's information remains displayed.
+
+**1.0.0-rc.7 is the latest preserved local update candidate, not the version currently published on the website.** Its changes include the repeat-one repair and optional crossfading. This repository preparation has not published RC7 or created a new installer version. At present this is a local staging repository; there is no public repository URL yet. See [publication status](docs/PUBLICATION-STATUS.md).
 
 After publication, obtain `Enhanced-Zune-Setup-1.0.0-rc.7.exe` from this project's Releases page and compare its SHA-256 with the release checksums. Original Microsoft Zune installation media is not bundled. Setup supports the verified original-media download/install flow; missing Windows components may require Windows servicing, an Internet connection, or a restart.
 
