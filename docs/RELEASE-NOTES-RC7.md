@@ -1,3 +1,5 @@
+> **Attribution correction (2026-10-22):** Development used a pre-existing third-party dark `ZuneShellResources.dll`. Its creator/source/license are unknown. The project did not create that original dark modification. Microsoft originals, inherited dark assets, and subsequent project changes are distinct layers. Current mixed-provenance release artifacts are **not cleared for redistribution**; see `CREDITS.md` and `docs/REDISTRIBUTION.md` in the staged repository. Earlier wording such as "our dark assets" describes retained/integrated content, not exclusive authorship.
+
 # Enhanced Zune 1.0.0 RC7
 
 **Draft notes for an unpublished local update candidate.** The first publicly shared installer was RC6.2, which the owner reports is still on the website. Do not present these notes as changes already delivered to those users.

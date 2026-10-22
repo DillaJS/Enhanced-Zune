@@ -1,3 +1,5 @@
+> **Attribution correction (2026-10-22):** Development used a pre-existing third-party dark `ZuneShellResources.dll`. Its creator/source/license are unknown. The project did not create that original dark modification. Microsoft originals, inherited dark assets, and subsequent project changes are distinct layers. Current mixed-provenance release artifacts are **not cleared for redistribution**; see `CREDITS.md` and `docs/REDISTRIBUTION.md` in the staged repository. Earlier wording such as "our dark assets" describes retained/integrated content, not exclusive authorship.
+
 # Distribution decision and references
 
 This local candidate is not published or uploaded. It excludes original Microsoft installation media and full Microsoft DLLs. Users supply legitimate original media or their existing compatible installation. A binary patch is a packaging mechanism, not proof that derivative code/artwork may be redistributed.
@@ -21,3 +23,7 @@ RC6 optionally opens https://www.zuneupdate.com/resources/zune-software.zip in t
 
 
 RC7 audio dependencies: [NAudio 2.2.1](https://github.com/naudio/NAudio) (MIT) and [Microsoft .NET runtime](https://github.com/dotnet/runtime) / [Windows Desktop runtime](https://github.com/dotnet/windowsdesktop) 8.0.31. Required license and third-party notices are installed as ZuneCrossfade-Licenses.txt and included in the source package. These open-source runtime licenses do not license inherited Microsoft Zune code or artwork.
+
+## 2026-10-22 provenance correction
+
+The starting resource DLL was a third-party dark modification, not untouched Microsoft stock. Creator and distribution license remain unidentified. Current RC6.2/RC7 payloads retain inherited dark image content; distribution as binary deltas does not remove that provenance. Permission is not established. The recommended code-only/user-supplied-input alternative and exclusions are documented in [docs/REDISTRIBUTION.md](docs/REDISTRIBUTION.md); asset-level evidence is in [docs/ATTRIBUTION-AUDIT.md](docs/ATTRIBUTION-AUDIT.md).

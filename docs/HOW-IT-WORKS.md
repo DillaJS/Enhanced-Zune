@@ -1,3 +1,5 @@
+> **Attribution correction (2026-10-22):** Development used a pre-existing third-party dark `ZuneShellResources.dll`. Its creator/source/license are unknown. The project did not create that original dark modification. Microsoft originals, inherited dark assets, and subsequent project changes are distinct layers. Current mixed-provenance release artifacts are **not cleared for redistribution**; see `CREDITS.md` and `docs/REDISTRIBUTION.md` in the staged repository. Earlier wording such as "our dark assets" describes retained/integrated content, not exclusive authorship.
+
 # How the enhancements work
 
 This explains the shipped design at different evidence levels. Source links point to editable implementation where present; older components are explicitly marked as frozen. It is not a claim that every fix has been reconstructed here.
@@ -41,3 +43,7 @@ Mixview uses local album/artist information and randomized surrounding entries, 
 The custom-background design validates image input, limits sizes, queues changes until settings are saved, and combines relevant restart notices. Installer code recognizes the custom resource slots rather than treating permitted personal background edits as arbitrary modifications. Restore exports customized slots. The runtime picker/helper side is historical frozen material; the installer side is visible in source.
 
 The broad objective was to preserve music, library data and personal files while changing a bounded program-file set. Safeguards and tests reduce risk; they are not a guarantee against every machine-specific failure. See [verification](VERIFICATION.md).
+
+## Attribution boundary for visual work
+
+Theme-selection logic, scope rules and later repairs are subsequent integration work. Their selected dark images often predate this project. The inherited reference had no UIX/UIB changes, but did contain 275 visibly changed PNGs. The release-level [attribution audit](ATTRIBUTION-AUDIT.md) identifies retained inherited content rather than treating every changed image as ours.

@@ -1,3 +1,5 @@
+> **Attribution correction (2026-10-22):** Development used a pre-existing third-party dark `ZuneShellResources.dll`. Its creator/source/license are unknown. The project did not create that original dark modification. Microsoft originals, inherited dark assets, and subsequent project changes are distinct layers. Current mixed-provenance release artifacts are **not cleared for redistribution**; see `CREDITS.md` and `docs/REDISTRIBUTION.md` in the staged repository. Earlier wording such as "our dark assets" describes retained/integrated content, not exclusive authorship.
+
 # What source is available?
 
 This table describes the preserved RC7 engineering package. It distinguishes implementation source from frozen shipping inputs. It does not claim that all surviving development folders have already been recovered or audited.
@@ -22,3 +24,7 @@ The payload contains executable material and derivative resource changes, not on
 ## How history will be represented
 
 The first commit imports the preserved RC7 source. Later commits describe repository preparation and future changes. Earlier release notes can be added when supported by preserved packages; invented earlier commits or guessed dates will not be used.
+
+## Source availability is separate from ownership
+
+The Microsoft resource base, the inherited third-party dark edits and our subsequent code/asset work have different provenance. A source or patch file being visible here is not a license grant over its inputs or embedded content. Compiled `ManagementGeneral.uib` and derivative `ManagementGeneral.uix`, frozen payloads and historical patch material require rights review before any code-only publication. See [CREDITS.md](../CREDITS.md) and [the audit](ATTRIBUTION-AUDIT.md).

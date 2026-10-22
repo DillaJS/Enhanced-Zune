@@ -1,0 +1,833 @@
+{
+  "reference_hashes": {
+    "microsoft_stock": "073E43F83B2E5AE9FC4C16516F681A374D757FF3574E51CFEEE1D9205783B854",
+    "inherited_dark": "BCE5801AAAF06666BE238E5F85068BBC2E45ADBE1C27B211727F2BD1E42CF691"
+  },
+  "historical": {
+    "resource_count": 1856,
+    "dark_resource_count": 1856,
+    "changed_payloads": 1313,
+    "visible_png_changes": 275,
+    "uix_changed": []
+  },
+  "releases": {
+    "RC6-2": {
+      "shell_resources_sha256": "CFCD1E123FB97E81DD4635FDA2294CEBD7724B74C4569C688E426341BCA18A06",
+      "matches_shipping_manifest": true,
+      "png_counts_by_exact_match": {
+        "matches_dark_only": 901,
+        "no_exact_reference_match": 821,
+        "matches_stock_only": 53
+      },
+      "visible_inherited_275_status": {
+        "not_matched_no_new_authorship_claim": 101,
+        "exact_dark_bytes_present": 172,
+        "dark_visible_pixels_present": 2
+      },
+      "backgrounds": [
+        {
+          "resource": "FRAMEBACKGROUND00.PNG",
+          "group": "Built-in desktop backgrounds",
+          "historical_change": "other RGB edits; alpha preserved",
+          "dark_sha256": "9944653A3D29AFFCA1C727F20991DCB1EB602B98F2B5B73F5A64C39E1687E7C7",
+          "exact_release_matches": "BUTTONLIGHT.FRAMEBACKGROUND00.PNG",
+          "visible_release_matches": "BUTTONLIGHT.FRAMEBACKGROUND00.PNG",
+          "status": "exact_dark_bytes_present"
+        },
+        {
+          "resource": "FRAMEBACKGROUND01.PNG",
+          "group": "Built-in desktop backgrounds",
+          "historical_change": "other RGB edits; alpha preserved",
+          "dark_sha256": "45A29C3843A5303DB4E3D9279F00DFF2B66012A7E9D830E4998EC9BFB0DD949D",
+          "exact_release_matches": "BUTTONLIGHT.FRAMEBACKGROUND01.PNG",
+          "visible_release_matches": "BUTTONLIGHT.FRAMEBACKGROUND01.PNG",
+          "status": "exact_dark_bytes_present"
+        },
+        {
+          "resource": "FRAMEBACKGROUND02.PNG",
+          "group": "Built-in desktop backgrounds",
+          "historical_change": "other RGB edits; alpha preserved",
+          "dark_sha256": "028A37CA298BA70E07DABF728AB066425A28F2FA95A438F472FBDC021817A364",
+          "exact_release_matches": "BUTTONLIGHT.FRAMEBACKGROUND02.PNG",
+          "visible_release_matches": "BUTTONLIGHT.FRAMEBACKGROUND02.PNG",
+          "status": "exact_dark_bytes_present"
+        },
+        {
+          "resource": "FRAMEBACKGROUND03.PNG",
+          "group": "Built-in desktop backgrounds",
+          "historical_change": "other RGB edits; alpha preserved",
+          "dark_sha256": "63CE1FC1409F4CE9FD57568FBF5AB5AABDF694BDEF2FD47FB10FE28E0566DD29",
+          "exact_release_matches": "BUTTONLIGHT.FRAMEBACKGROUND03.PNG",
+          "visible_release_matches": "BUTTONLIGHT.FRAMEBACKGROUND03.PNG",
+          "status": "exact_dark_bytes_present"
+        },
+        {
+          "resource": "FRAMEBACKGROUND04.PNG",
+          "group": "Built-in desktop backgrounds",
+          "historical_change": "other RGB edits; alpha preserved",
+          "dark_sha256": "D4F33AEFD2BF223EEA39C108810603FDA07F1A33223D8BBD6EAA021ECE38F5FF",
+          "exact_release_matches": "BUTTONLIGHT.FRAMEBACKGROUND04.PNG",
+          "visible_release_matches": "BUTTONLIGHT.FRAMEBACKGROUND04.PNG",
+          "status": "exact_dark_bytes_present"
+        },
+        {
+          "resource": "FRAMEBACKGROUND05.PNG",
+          "group": "Built-in desktop backgrounds",
+          "historical_change": "other RGB edits; alpha preserved",
+          "dark_sha256": "0A306BD02793ACC4FB54E96C8173E9B0BD871E33FD2F8BC479471345753E7F0D",
+          "exact_release_matches": "BUTTONLIGHT.FRAMEBACKGROUND05.PNG",
+          "visible_release_matches": "BUTTONLIGHT.FRAMEBACKGROUND05.PNG",
+          "status": "exact_dark_bytes_present"
+        },
+        {
+          "resource": "FRAMEBACKGROUND06.PNG",
+          "group": "Built-in desktop backgrounds",
+          "historical_change": "exact whole-canvas RGB inversion; alpha preserved",
+          "dark_sha256": "F6CE01533011A148511DA973AA61CFCD4290A6BEB6E32EEDFF6886D0E1B95CE1",
+          "exact_release_matches": "BUTTONLIGHT.FRAMEBACKGROUND06.PNG",
+          "visible_release_matches": "BUTTONLIGHT.FRAMEBACKGROUND06.PNG",
+          "status": "exact_dark_bytes_present"
+        },
+        {
+          "resource": "FRAMEBACKGROUND07.PNG",
+          "group": "Built-in desktop backgrounds",
+          "historical_change": "other RGB edits; alpha preserved",
+          "dark_sha256": "E3C149A98432DDA8C7DC4FDDA57554FC3EA9D32E6AEA00EBA1D60BC40C974BEB",
+          "exact_release_matches": "BUTTONLIGHT.FRAMEBACKGROUND07.PNG",
+          "visible_release_matches": "BUTTONLIGHT.FRAMEBACKGROUND07.PNG",
+          "status": "exact_dark_bytes_present"
+        },
+        {
+          "resource": "FRAMEBACKGROUND08.PNG",
+          "group": "Built-in desktop backgrounds",
+          "historical_change": "exact whole-canvas RGB inversion; alpha preserved",
+          "dark_sha256": "A2712B69AC7C88344CCC72050AEB6A51D986D55E1A6F1AB8A405060135233013",
+          "exact_release_matches": "BUTTONLIGHT.FRAMEBACKGROUND08.PNG",
+          "visible_release_matches": "BUTTONLIGHT.FRAMEBACKGROUND08.PNG",
+          "status": "exact_dark_bytes_present"
+        },
+        {
+          "resource": "FRAMEBACKGROUND09.PNG",
+          "group": "Built-in desktop backgrounds",
+          "historical_change": "other RGB edits; alpha preserved",
+          "dark_sha256": "BF67850022A1E64FF798A51B947F1E160A2F37C94D4EABFB5CE16ED7302A98E9",
+          "exact_release_matches": "BUTTONLIGHT.FRAMEBACKGROUND09.PNG",
+          "visible_release_matches": "BUTTONLIGHT.FRAMEBACKGROUND09.PNG",
+          "status": "exact_dark_bytes_present"
+        },
+        {
+          "resource": "FRAMEBACKGROUND10.PNG",
+          "group": "Built-in desktop backgrounds",
+          "historical_change": "other RGB edits; alpha preserved",
+          "dark_sha256": "9220A19D956B8BAF5145461FBFA44A767B4D9B75C2A9E78A6A54DE6475A09881",
+          "exact_release_matches": "BUTTONLIGHT.FRAMEBACKGROUND10.PNG",
+          "visible_release_matches": "BUTTONLIGHT.FRAMEBACKGROUND10.PNG",
+          "status": "exact_dark_bytes_present"
+        }
+      ],
+      "reference_correction_58_checks": [
+        {
+          "resource": "BUTTONDARK.FRAMEBACKGROUND00.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.FRAMEBACKGROUND00.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.FRAMEBACKGROUND01.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.FRAMEBACKGROUND01.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.FRAMEBACKGROUND02.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.FRAMEBACKGROUND02.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.FRAMEBACKGROUND03.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.FRAMEBACKGROUND03.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.FRAMEBACKGROUND04.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.FRAMEBACKGROUND04.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.FRAMEBACKGROUND05.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.FRAMEBACKGROUND05.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.FRAMEBACKGROUND06.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.FRAMEBACKGROUND06.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.FRAMEBACKGROUND07.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.FRAMEBACKGROUND07.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.FRAMEBACKGROUND08.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.FRAMEBACKGROUND08.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.FRAMEBACKGROUND09.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.FRAMEBACKGROUND09.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.FRAMEBACKGROUND10.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.FRAMEBACKGROUND10.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.ICON.EXTERNALLINK.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.ICON.EXTERNALLINK.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.ICON.MARKETPLACE.RADIO.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.ICON.MARKETPLACE.RADIO.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.ICON.VIDEO.HEADER.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.ICON.VIDEO.HEADER.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.ICON.VIDEO.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.ICON.VIDEO.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.TRANSPORT.SWITCH.TOMUSIC.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.TRANSPORT.SWITCH.TOMUSIC.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.TRANSPORT.SWITCH.TOPHOTO.HOVER.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.TRANSPORT.SWITCH.TOPHOTO.HOVER.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.TRANSPORT.SWITCH.TOPHOTO.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.TRANSPORT.SWITCH.TOPHOTO.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.INFO_SM_DEFAULT.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.INFO_SM_DEFAULT.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.INFO_SM_HOVER.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.INFO_SM_HOVER.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.RENTALPURCHASEDEVICE.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.RENTALPURCHASEDEVICE.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.RENTALPURCHASEPC.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.RENTALPURCHASEPC.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.TREECONTROL.TRIANGLE.FRAME1.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.TREECONTROL.TRIANGLE.FRAME1.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.TREECONTROL.TRIANGLE.FRAME2.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.TREECONTROL.TRIANGLE.FRAME2.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.TREECONTROL.TRIANGLE.FRAME3.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.TREECONTROL.TRIANGLE.FRAME3.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.TREECONTROL.TRIANGLECLOSED.HOVER.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.TREECONTROL.TRIANGLECLOSED.HOVER.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.TREECONTROL.TRIANGLECLOSED.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.TREECONTROL.TRIANGLECLOSED.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.TREECONTROL.TRIANGLEOPEN.HOVER.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.TREECONTROL.TRIANGLEOPEN.HOVER.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.TREECONTROL.TRIANGLEOPEN.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.TREECONTROL.TRIANGLEOPEN.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        }
+      ],
+      "reference_correction_exact_preserved": 58
+    },
+    "RC7": {
+      "shell_resources_sha256": "51AC5F3BD4E075CEF28548D664C731C258149E77F1AC6E2D6B996C5510C2D136",
+      "matches_shipping_manifest": true,
+      "png_counts_by_exact_match": {
+        "matches_dark_only": 901,
+        "no_exact_reference_match": 821,
+        "matches_stock_only": 53
+      },
+      "visible_inherited_275_status": {
+        "not_matched_no_new_authorship_claim": 101,
+        "exact_dark_bytes_present": 172,
+        "dark_visible_pixels_present": 2
+      },
+      "backgrounds": [
+        {
+          "resource": "FRAMEBACKGROUND00.PNG",
+          "group": "Built-in desktop backgrounds",
+          "historical_change": "other RGB edits; alpha preserved",
+          "dark_sha256": "9944653A3D29AFFCA1C727F20991DCB1EB602B98F2B5B73F5A64C39E1687E7C7",
+          "exact_release_matches": "BUTTONLIGHT.FRAMEBACKGROUND00.PNG",
+          "visible_release_matches": "BUTTONLIGHT.FRAMEBACKGROUND00.PNG",
+          "status": "exact_dark_bytes_present"
+        },
+        {
+          "resource": "FRAMEBACKGROUND01.PNG",
+          "group": "Built-in desktop backgrounds",
+          "historical_change": "other RGB edits; alpha preserved",
+          "dark_sha256": "45A29C3843A5303DB4E3D9279F00DFF2B66012A7E9D830E4998EC9BFB0DD949D",
+          "exact_release_matches": "BUTTONLIGHT.FRAMEBACKGROUND01.PNG",
+          "visible_release_matches": "BUTTONLIGHT.FRAMEBACKGROUND01.PNG",
+          "status": "exact_dark_bytes_present"
+        },
+        {
+          "resource": "FRAMEBACKGROUND02.PNG",
+          "group": "Built-in desktop backgrounds",
+          "historical_change": "other RGB edits; alpha preserved",
+          "dark_sha256": "028A37CA298BA70E07DABF728AB066425A28F2FA95A438F472FBDC021817A364",
+          "exact_release_matches": "BUTTONLIGHT.FRAMEBACKGROUND02.PNG",
+          "visible_release_matches": "BUTTONLIGHT.FRAMEBACKGROUND02.PNG",
+          "status": "exact_dark_bytes_present"
+        },
+        {
+          "resource": "FRAMEBACKGROUND03.PNG",
+          "group": "Built-in desktop backgrounds",
+          "historical_change": "other RGB edits; alpha preserved",
+          "dark_sha256": "63CE1FC1409F4CE9FD57568FBF5AB5AABDF694BDEF2FD47FB10FE28E0566DD29",
+          "exact_release_matches": "BUTTONLIGHT.FRAMEBACKGROUND03.PNG",
+          "visible_release_matches": "BUTTONLIGHT.FRAMEBACKGROUND03.PNG",
+          "status": "exact_dark_bytes_present"
+        },
+        {
+          "resource": "FRAMEBACKGROUND04.PNG",
+          "group": "Built-in desktop backgrounds",
+          "historical_change": "other RGB edits; alpha preserved",
+          "dark_sha256": "D4F33AEFD2BF223EEA39C108810603FDA07F1A33223D8BBD6EAA021ECE38F5FF",
+          "exact_release_matches": "BUTTONLIGHT.FRAMEBACKGROUND04.PNG",
+          "visible_release_matches": "BUTTONLIGHT.FRAMEBACKGROUND04.PNG",
+          "status": "exact_dark_bytes_present"
+        },
+        {
+          "resource": "FRAMEBACKGROUND05.PNG",
+          "group": "Built-in desktop backgrounds",
+          "historical_change": "other RGB edits; alpha preserved",
+          "dark_sha256": "0A306BD02793ACC4FB54E96C8173E9B0BD871E33FD2F8BC479471345753E7F0D",
+          "exact_release_matches": "BUTTONLIGHT.FRAMEBACKGROUND05.PNG",
+          "visible_release_matches": "BUTTONLIGHT.FRAMEBACKGROUND05.PNG",
+          "status": "exact_dark_bytes_present"
+        },
+        {
+          "resource": "FRAMEBACKGROUND06.PNG",
+          "group": "Built-in desktop backgrounds",
+          "historical_change": "exact whole-canvas RGB inversion; alpha preserved",
+          "dark_sha256": "F6CE01533011A148511DA973AA61CFCD4290A6BEB6E32EEDFF6886D0E1B95CE1",
+          "exact_release_matches": "BUTTONLIGHT.FRAMEBACKGROUND06.PNG",
+          "visible_release_matches": "BUTTONLIGHT.FRAMEBACKGROUND06.PNG",
+          "status": "exact_dark_bytes_present"
+        },
+        {
+          "resource": "FRAMEBACKGROUND07.PNG",
+          "group": "Built-in desktop backgrounds",
+          "historical_change": "other RGB edits; alpha preserved",
+          "dark_sha256": "E3C149A98432DDA8C7DC4FDDA57554FC3EA9D32E6AEA00EBA1D60BC40C974BEB",
+          "exact_release_matches": "BUTTONLIGHT.FRAMEBACKGROUND07.PNG",
+          "visible_release_matches": "BUTTONLIGHT.FRAMEBACKGROUND07.PNG",
+          "status": "exact_dark_bytes_present"
+        },
+        {
+          "resource": "FRAMEBACKGROUND08.PNG",
+          "group": "Built-in desktop backgrounds",
+          "historical_change": "exact whole-canvas RGB inversion; alpha preserved",
+          "dark_sha256": "A2712B69AC7C88344CCC72050AEB6A51D986D55E1A6F1AB8A405060135233013",
+          "exact_release_matches": "BUTTONLIGHT.FRAMEBACKGROUND08.PNG",
+          "visible_release_matches": "BUTTONLIGHT.FRAMEBACKGROUND08.PNG",
+          "status": "exact_dark_bytes_present"
+        },
+        {
+          "resource": "FRAMEBACKGROUND09.PNG",
+          "group": "Built-in desktop backgrounds",
+          "historical_change": "other RGB edits; alpha preserved",
+          "dark_sha256": "BF67850022A1E64FF798A51B947F1E160A2F37C94D4EABFB5CE16ED7302A98E9",
+          "exact_release_matches": "BUTTONLIGHT.FRAMEBACKGROUND09.PNG",
+          "visible_release_matches": "BUTTONLIGHT.FRAMEBACKGROUND09.PNG",
+          "status": "exact_dark_bytes_present"
+        },
+        {
+          "resource": "FRAMEBACKGROUND10.PNG",
+          "group": "Built-in desktop backgrounds",
+          "historical_change": "other RGB edits; alpha preserved",
+          "dark_sha256": "9220A19D956B8BAF5145461FBFA44A767B4D9B75C2A9E78A6A54DE6475A09881",
+          "exact_release_matches": "BUTTONLIGHT.FRAMEBACKGROUND10.PNG",
+          "visible_release_matches": "BUTTONLIGHT.FRAMEBACKGROUND10.PNG",
+          "status": "exact_dark_bytes_present"
+        }
+      ],
+      "reference_correction_58_checks": [
+        {
+          "resource": "BUTTONDARK.FRAMEBACKGROUND00.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.FRAMEBACKGROUND00.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.FRAMEBACKGROUND01.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.FRAMEBACKGROUND01.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.FRAMEBACKGROUND02.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.FRAMEBACKGROUND02.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.FRAMEBACKGROUND03.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.FRAMEBACKGROUND03.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.FRAMEBACKGROUND04.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.FRAMEBACKGROUND04.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.FRAMEBACKGROUND05.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.FRAMEBACKGROUND05.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.FRAMEBACKGROUND06.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.FRAMEBACKGROUND06.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.FRAMEBACKGROUND07.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.FRAMEBACKGROUND07.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.FRAMEBACKGROUND08.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.FRAMEBACKGROUND08.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.FRAMEBACKGROUND09.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.FRAMEBACKGROUND09.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.FRAMEBACKGROUND10.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.FRAMEBACKGROUND10.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.ICON.EXTERNALLINK.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.ICON.EXTERNALLINK.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.ICON.MARKETPLACE.RADIO.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.ICON.MARKETPLACE.RADIO.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.ICON.VIDEO.HEADER.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.ICON.VIDEO.HEADER.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.ICON.VIDEO.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.ICON.VIDEO.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.TRANSPORT.SWITCH.TOMUSIC.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.TRANSPORT.SWITCH.TOMUSIC.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.TRANSPORT.SWITCH.TOPHOTO.HOVER.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.TRANSPORT.SWITCH.TOPHOTO.HOVER.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.TRANSPORT.SWITCH.TOPHOTO.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.TRANSPORT.SWITCH.TOPHOTO.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.INFO_SM_DEFAULT.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.INFO_SM_DEFAULT.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.INFO_SM_HOVER.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.INFO_SM_HOVER.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.RENTALPURCHASEDEVICE.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.RENTALPURCHASEDEVICE.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.RENTALPURCHASEPC.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.RENTALPURCHASEPC.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.TREECONTROL.TRIANGLE.FRAME1.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.TREECONTROL.TRIANGLE.FRAME1.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.TREECONTROL.TRIANGLE.FRAME2.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.TREECONTROL.TRIANGLE.FRAME2.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.TREECONTROL.TRIANGLE.FRAME3.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.TREECONTROL.TRIANGLE.FRAME3.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.TREECONTROL.TRIANGLECLOSED.HOVER.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.TREECONTROL.TRIANGLECLOSED.HOVER.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.TREECONTROL.TRIANGLECLOSED.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.TREECONTROL.TRIANGLECLOSED.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.TREECONTROL.TRIANGLEOPEN.HOVER.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.TREECONTROL.TRIANGLEOPEN.HOVER.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONDARK.TREECONTROL.TRIANGLEOPEN.PNG",
+          "reference_source": "Microsoft original",
+          "exact_preserved": true
+        },
+        {
+          "resource": "BUTTONLIGHT.TREECONTROL.TRIANGLEOPEN.PNG",
+          "reference_source": "saved original dark reference",
+          "exact_preserved": true
+        }
+      ],
+      "reference_correction_exact_preserved": 58
+    }
+  },
+  "creator": "Unknown; no reliable author/source/license evidence identified.",
+  "limits": "Exact/pixel matches establish retained resource content, not authorship, permission, or independence of other resources. Unmatched derivatives remain potentially inherited. No binaries or images exported."
+}

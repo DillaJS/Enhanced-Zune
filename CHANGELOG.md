@@ -1,3 +1,5 @@
+> Attribution: both RC6.2 and RC7 build on a pre-existing third-party dark resource modification, creator unknown. That inherited artwork is not a new Enhanced Zune creation. Mixed-provenance distribution remains on hold; see [CREDITS.md](CREDITS.md).
+
 # Changelog
 
 ## 1.0.0 RC7 — local update candidate, not yet publicly released

@@ -5,17 +5,21 @@
     {
       "name": "Enhanced-Zune-1.0.0-rc.7-Engineering-Source.zip",
       "bytes": 83997219,
-      "sha256": "3D5C712D2121D0780DD9BCECB8B9CA3930F581E2E6E3F6E7E4D570E42F7A8E19"
+      "sha256": "3D5C712D2121D0780DD9BCECB8B9CA3930F581E2E6E3F6E7E4D570E42F7A8E19",
+      "publication_status": "preserved locally; not cleared for redistribution"
     },
     {
       "name": "Enhanced-Zune-1.0.0-rc.7-payload.zip",
       "bytes": 85130233,
-      "sha256": "5C7F0684ED05B4F0374A77B3BE3E89F24BEE3D4930718D722E20C45E7CC4C83B"
+      "sha256": "5C7F0684ED05B4F0374A77B3BE3E89F24BEE3D4930718D722E20C45E7CC4C83B",
+      "publication_status": "preserved locally; not cleared for redistribution"
     },
     {
       "name": "Enhanced-Zune-Setup-1.0.0-rc.7.exe",
       "bytes": 85229568,
-      "sha256": "85EDF4FC335F5D7FF86E7EF96C4540A9340DA33FE6E71D68BB10D066521BD9EA"
+      "sha256": "85EDF4FC335F5D7FF86E7EF96C4540A9340DA33FE6E71D68BB10D066521BD9EA",
+      "publication_status": "preserved locally; not cleared for redistribution"
     }
-  ]
+  ],
+  "redistribution_status": "HOLD: inherited third-party dark assets; creator and redistribution permission not established"
 }

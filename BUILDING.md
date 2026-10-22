@@ -1,3 +1,5 @@
+> **Local engineering rebuild only:** The unchanged RC7 EXE and payload contain inherited dark-theme material with unresolved rights. Reproducibility is not publication clearance. See [credits](CREDITS.md) and [redistribution recommendation](docs/REDISTRIBUTION.md).
+
 # Building the preserved RC7 installer
 
 ## Exact installer rebuild

@@ -1,3 +1,5 @@
+> **Attribution correction (2026-10-22):** Development used a pre-existing third-party dark `ZuneShellResources.dll`. Its creator/source/license are unknown. The project did not create that original dark modification. Microsoft originals, inherited dark assets, and subsequent project changes are distinct layers. Current mixed-provenance release artifacts are **not cleared for redistribution**; see `CREDITS.md` and `docs/REDISTRIBUTION.md` in the staged repository. Earlier wording such as "our dark assets" describes retained/integrated content, not exclusive authorship.
+
 # Enhanced Zune 4.8
 
 Community enhancements for the original **x64 Zune 4.8.2345** desktop application on Windows 10/11. This is an enhancement project, not a replacement Zune application or a restoration of Microsoft's discontinued online services. It is not affiliated with Microsoft.
