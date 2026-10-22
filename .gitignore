@@ -1,0 +1,16 @@
+/build/
+/dist/
+/artifacts/
+/private-evidence/
+**/bin/
+**/obj/
+**/__pycache__/
+.vs/
+*.user
+*.suo
+*.snk
+*.pfx
+*.p12
+*.pem
+*.key
+*.log
