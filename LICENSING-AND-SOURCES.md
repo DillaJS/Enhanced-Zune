@@ -1,29 +1,25 @@
-> **Attribution correction (2026-10-22):** Development used a pre-existing third-party dark `ZuneShellResources.dll`. Its creator/source/license are unknown. The project did not create that original dark modification. Microsoft originals, inherited dark assets, and subsequent project changes are distinct layers. Current mixed-provenance release artifacts are **not cleared for redistribution**; see `CREDITS.md` and `docs/REDISTRIBUTION.md` in the staged repository. Earlier wording such as "our dark assets" describes retained/integrated content, not exclusive authorship.
+# Licensing and sources
 
-# Distribution decision and references
+## Project contributions: 0BSD
 
-This local candidate is not published or uploaded. It excludes original Microsoft installation media and full Microsoft DLLs. Users supply legitimate original media or their existing compatible installation. A binary patch is a packaging mechanism, not proof that derivative code/artwork may be redistributed.
+Our own code and original contributions are licensed under [0BSD](LICENSE), with scope defined in [LICENSE-SCOPE.md](LICENSE-SCOPE.md). The license does not require credit to the project owner or separate permission to use, modify or redistribute those contributions.
 
-No redistribution authorization for Zune was established. Microsoft's general terms state that software is governed by its accompanying license and restrict redistribution outside that license. Public release needs review of the applicable Zune license and rights in the inherited dark artwork and derivative enhanced assets. No blanket open-source license is assigned to Microsoft material or third-party artwork in this project.
+## Microsoft Zune
 
-The available original Microsoft media was inspected locally: x64 4.8.2345.0; MSI ProductCode `{9B75648B-6C30-4A0D-9DE6-0D09D20AF5A5}`. Its Authenticode signature validated on this host. The MSI has no license/dialog UI; the clean-install route therefore launches the verified original Microsoft setup from complete media to retain its own license and prerequisite flow. No MSI or original setup is included in the candidate.
+The original application, framework, branding, fonts, resources and Microsoft-origin portions of derivatives retain their existing rights. Original installation media and full original Microsoft DLLs are not bundled as separate release inputs. Shipping binary deltas does not by itself establish rights over reconstructed material. Microsoft's [general software terms](https://www.microsoft.com/en-us/legal/terms-of-use) refer to the accompanying product license; those website terms are not a replacement Zune-specific license.
 
-Setup uses Windows-provided .NET Framework, Windows Forms and system APIs. The setup EXE embeds a self-contained Microsoft .NET audio runtime and NAudio for the optional crossfade component. It does not embed Python, Mono.Cecil, Inno Setup, NSIS, community-service modifications or diagnostic tools. Build-time tools are separate from runtime dependencies.
+## Inherited dark modification
 
-Primary references checked during preparation:
+Development began with an already modified dark `ZuneShellResources.dll`. Creator, original download source and redistribution license remain unidentified. The project owner did not create this work. Attribution and resource-level evidence are retained in [CREDITS.md](CREDITS.md) and [the audit](docs/ATTRIBUTION-AUDIT.md). No 0BSD grant or permission from that unknown creator is implied.
 
-- [Microsoft Terms of Use â€” software and accompanying license](https://www.microsoft.com/en-us/legal/terms-of-use)
-- [Microsoft .NET Framework 3.5 installation guidance](https://learn.microsoft.com/en-us/dotnet/framework/install/dotnet-35-windows)
-- [Microsoft Windows 11 .NET Framework 3.5 guidance](https://learn.microsoft.com/en-us/dotnet/framework/install/dotnet-35-windows-11)
-- [Microsoft Windows Sandbox configuration](https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-configure-using-wsb-file)
+## Dependencies
 
-The local MSI metadata, signature result, exact original-media hashes and source policy results are preserved with private engineering evidence. Legal clearance remains open; the links above do not supply it.
+- NAudio 2.2.1: upstream MIT license.
+- Bundled .NET/Windows Desktop runtime 8.0.31: upstream licenses and third-party notices.
+- Build-time Mono.Cecil package references retain their upstream terms; the scoped patcher projects pin their packages.
 
-RC6 optionally opens https://www.zuneupdate.com/resources/zune-software.zip in the user’s browser. This is a community archive, not a current Microsoft service. The separate original package is not redistributed inside this enhancement installer; its known hash and every extracted x64 installation file are checked before setup is offered.
+Required audio-runtime notices are included in `ZuneCrossfade-Licenses.txt`. Dependency licenses do not license Microsoft Zune or the inherited dark material. Screenshots are demonstrations; depicted album covers, photos and branding are not supplied as licensed reusable assets.
 
+## Preserved release archives
 
-RC7 audio dependencies: [NAudio 2.2.1](https://github.com/naudio/NAudio) (MIT) and [Microsoft .NET runtime](https://github.com/dotnet/runtime) / [Windows Desktop runtime](https://github.com/dotnet/windowsdesktop) 8.0.31. Required license and third-party notices are installed as ZuneCrossfade-Licenses.txt and included in the source package. These open-source runtime licenses do not license inherited Microsoft Zune code or artwork.
-
-## 2026-10-22 provenance correction
-
-The starting resource DLL was a third-party dark modification, not untouched Microsoft stock. Creator and distribution license remain unidentified. Current RC6.2/RC7 payloads retain inherited dark image content; distribution as binary deltas does not remove that provenance. Permission is not established. The recommended code-only/user-supplied-input alternative and exclusions are documented in [docs/REDISTRIBUTION.md](docs/REDISTRIBUTION.md); asset-level evidence is in [docs/ATTRIBUTION-AUDIT.md](docs/ATTRIBUTION-AUDIT.md).
+Installers and frozen payloads retain their preserved bytes. The GitHub engineering-source packages add current license/credits documentation and normalize one RC6.2 test-fixture path; compiled installer inputs are unchanged. Original local archives remain untouched. Older documentation inside the packages records the earlier licensing stage; the current `LICENSE` and `LICENSE-SCOPE.md` supply the project's own 0BSD grant. Source availability varies by component; see [source coverage](docs/SOURCE-COVERAGE.md).

@@ -1,5 +1,3 @@
-> **Attribution correction (2026-10-22):** Development used a pre-existing third-party dark `ZuneShellResources.dll`. Its creator/source/license are unknown. The project did not create that original dark modification. Microsoft originals, inherited dark assets, and subsequent project changes are distinct layers. Current mixed-provenance release artifacts are **not cleared for redistribution**; see `CREDITS.md` and `docs/REDISTRIBUTION.md` in the staged repository. Earlier wording such as "our dark assets" describes retained/integrated content, not exclusive authorship.
-
 # What source is available?
 
 This table describes the preserved RC7 engineering package. It distinguishes implementation source from frozen shipping inputs. It does not claim that all surviving development folders have already been recovered or audited.
@@ -19,7 +17,7 @@ This table describes the preserved RC7 engineering package. It distinguishes imp
 
 The installer embeds a ZIP of compressed added components and binary deltas, with hashes and compatibility metadata. Compiling this installer from source reproduces its packaging around these fixed bytes. It does not prove that every embedded helper was regenerated from the visible source.
 
-The payload contains executable material and derivative resource changes, not only plain-text patch instructions. Separating it as a release asset is repository organization, not a redistribution-rights determination. See [licensing status](../LICENSE.md).
+The payload contains executable material and derivative resource changes, not only plain-text patch instructions. Separating it as a release asset is repository organization, not a redistribution-rights determination. See [license scope](../LICENSE-SCOPE.md).
 
 ## How history will be represented
 

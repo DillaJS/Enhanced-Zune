@@ -1,6 +1,6 @@
 # Known limitations
 
-This is a private test candidate. A successful prerequisite check does not prove a clean Zune installation or playback works on every Windows build.
+This is a community release candidate. A successful prerequisite check does not prove a clean Zune installation or playback works on every Windows build.
 
 - Actual missing-.NET, missing-media, Windows N and Windows 11 26H1 standalone installation/reboot scenarios need disposable-system tests. Automated tests cover decisions/routing, native file inspection, read-only detection on Windows 11 25H2, and the production servicing script with all Windows queries/mutations replaced by mocks. Actual feature installation/download/UAC/reboot remains untested.
 - The .NET check uses Microsoft's installed-product registry record. Media checks inspect required x64 Windows DLLs and the optional-feature state where reported. They do not fully validate codecs, COM registration, file signatures or servicing health. A Windows version that does not report the player feature is evaluated using runtime files.

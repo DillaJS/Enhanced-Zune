@@ -1,4 +1,4 @@
-> Attribution: both RC6.2 and RC7 build on a pre-existing third-party dark resource modification, creator unknown. That inherited artwork is not a new Enhanced Zune creation. Mixed-provenance distribution remains on hold; see [CREDITS.md](CREDITS.md).
+> Both versions build on a pre-existing third-party dark resource modification, creator unknown. Our own subsequent contributions use 0BSD; inherited material retains separate rights. See [CREDITS.md](CREDITS.md) and [LICENSE-SCOPE.md](LICENSE-SCOPE.md).
 
 # Changelog
 

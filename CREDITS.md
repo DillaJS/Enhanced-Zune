@@ -4,7 +4,7 @@
 
 Microsoft and its licensors created the original Zune desktop application, Iris/UIX framework, branding, fonts, original interface and assets. These are not creations of Enhanced Zune and are not made open source by this project.
 
-## Pre-existing third-party Dark Zune modification — creator unknown
+## Pre-existing third-party Dark Zune modification â€” creator unknown
 
 **Enhanced Zune development began with an already modified, third-party dark-themed `ZuneShellResources.dll`, not Microsoft's untouched resource DLL. The project owner did not create that original dark modification and claims no credit for it.**
 
@@ -24,6 +24,6 @@ This describes later work on top of Microsoft Zune and the inherited dark baseli
 
 The optional crossfade helper uses NAudio 2.2.1 and the Microsoft .NET runtime. Their upstream notices remain in `ZuneCrossfade-Licenses.txt`. Those licenses do not license Microsoft Zune, inherited dark artwork, or unrelated project content. AI-assisted development does not change these attribution boundaries.
 
-## Permission status
+## License boundaries
 
-Acknowledgment is not a permission grant. Redistribution of the inherited dark assets is **not cleared**. No blanket open-source license is assigned to this mixed-provenance package. See [licensing and distribution plan](docs/REDISTRIBUTION.md).
+Our own subsequent contributions use [0BSD](LICENSE). Microsoft material, inherited dark-theme work and dependencies are excluded from that grant. The unknown dark creator's identity and redistribution terms remain unestablished; acknowledgment is not a permission grant. See [LICENSE-SCOPE.md](LICENSE-SCOPE.md).

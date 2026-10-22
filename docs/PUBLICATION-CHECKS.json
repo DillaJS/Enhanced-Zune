@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-22",
+  "release": "1.0.0-rc.7",
+  "installer_sha256": "85EDF4FC335F5D7FF86E7EF96C4540A9340DA33FE6E71D68BB10D066521BD9EA",
+  "installer_matches_preserved_release": true,
+  "mixer_checks_passed": 22,
+  "output_and_integration_checks_passed": 19,
+  "audio_device_opened": false,
+  "installed_zune_modified_or_opened": false,
+  "scope": "Fresh publishing-copy installer rebuild and synthetic audio/output tests. Original release caveats remain in KNOWN-LIMITATIONS.md. This is not clean-machine certification."
+}

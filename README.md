@@ -1,43 +1,50 @@
-> **Attribution correction (2026-10-22):** Development used a pre-existing third-party dark `ZuneShellResources.dll`. Its creator/source/license are unknown. The project did not create that original dark modification. Microsoft originals, inherited dark assets, and subsequent project changes are distinct layers. Current mixed-provenance release artifacts are **not cleared for redistribution**; see `CREDITS.md` and `docs/REDISTRIBUTION.md` in the staged repository. Earlier wording such as "our dark assets" describes retained/integrated content, not exclusive authorship.
-
 # Enhanced Zune 4.8
 
-Community enhancements for the original **x64 Zune 4.8.2345** desktop application on Windows 10/11. This is an enhancement project, not a replacement Zune application or a restoration of Microsoft's discontinued online services. It is not affiliated with Microsoft.
+Enhancements for the original **Microsoft Zune 4.8.2345 x64** desktop application on **Windows 10 and 11**. Familiar Zune, with display, customization, responsiveness and playback improvements—not a new player or a restoration of discontinued online services.
 
-## What changed?
+[Downloads](https://github.com/DillaJS/Enhanced-Zune/releases) · [Installation](INSTALLING.md) · [Features](FEATURES.md) · [Build from source](BUILDING.md) · [Report a problem](https://github.com/DillaJS/Enhanced-Zune/issues/new/choose)
 
-- Interface scaling, clearer controls, an optional dark theme and three custom background slots.
-- Artwork-quality levels and local artist photos for desktop views.
-- Local Mixview improvements and collection navigation.
-- A renderer responsiveness repair, repeat-one playback, and optional crossfading.
-- An installer with compatibility checks, verified backups, recovery, and prerequisite guidance.
+![Enhanced Zune Collection with the optional dark theme](docs/images/collection-dark.png)
 
-See [how the changes work](docs/HOW-IT-WORKS.md), [source coverage](docs/SOURCE-COVERAGE.md), and [known limitations](KNOWN-LIMITATIONS.md). These are scoped improvements; claims of universally eliminated lag or restored online services would be inaccurate.
+## What's improved?
 
-## Downloads and installation
+- **Display:** interface scaling from 100% to 400%, clearer controls and artwork, an optional dark theme, and three custom-background slots.
+- **Artwork:** Basic, Balanced and Premium decode-quality choices; local artist photos; improved local Mixview artwork and navigation.
+- **Responsiveness:** a renderer fairness repair addressing the investigated input stalls, while retaining graphics choices and animations.
+- **Playback:** repeat-current-item controls; RC7 repairs repeat-one selection/playlist behavior and adds optional crossfading with a 0–10 second control.
+- **Installation:** original-media extraction/verification, Windows prerequisite assistance, verified program-file backups, repair and recovery.
 
-The first publicly shared installer is **1.0.0-rc.6.2**. The project owner reports that the website still distributes that version. **RC6.2 has the repeat-one defect**: repeat one can block explicit track selection and, in some playlist cases, let audio advance while the previous item's information remains displayed.
+See the [feature list](FEATURES.md), [screenshots and comparisons](docs/SCREENSHOTS.md), and [technical explanations](docs/HOW-IT-WORKS.md). There is no claim of universally eliminated lag, restored sign-in/Marketplace services, or device artist-photo synchronization.
 
-**1.0.0-rc.7 is the latest preserved local update candidate, not the version currently published on the website.** Its changes include the repeat-one repair and optional crossfading. This repository preparation has not published RC7 or created a new installer version. At present this is a local staging repository; there is no public repository URL yet. See [publication status](docs/PUBLICATION-STATUS.md).
+## Versions
 
-After publication, obtain `Enhanced-Zune-Setup-1.0.0-rc.7.exe` from this project's Releases page and compare its SHA-256 with the release checksums. Original Microsoft Zune installation media is not bundled. Setup supports the verified original-media download/install flow; missing Windows components may require Windows servicing, an Internet connection, or a restart.
+| Version | Status and important difference |
+| --- | --- |
+| **RC6.2** | First publicly shared version. Includes a known Repeat One defect: explicit track selection can be blocked, or playlist audio can advance while old metadata stays visible. Preserved as the historical baseline. |
+| **RC7** | Newer update candidate, currently prepared as a draft release. Repairs Repeat One and adds optional crossfading, off by default. |
 
-Close Zune before installing or restoring. Existing earlier enhancement releases require **Restore originals**, followed by **Install / verify**, using the matching verified backup. Do not manually delete the backup or bypass an unknown-file warning. See [the original RC7 usage notes](docs/RC7-ORIGINAL-README.md).
+The existing website still offers RC6.2 according to the project owner. Preparing this repository does not update that website. See [changelog](CHANGELOG.md) and [release status](docs/PUBLICATION-STATUS.md). Both versions are release candidates.
 
-## Source and rebuilds
+## Install or update
 
-Start with [BUILDING.md](BUILDING.md). The installer C# and newly authored repeat-one/crossfade implementation are browsable here. The matching frozen payload is distributed separately as a release asset to keep large binaries out of Git.
+Use the appropriate installer from [Releases](https://github.com/DillaJS/Enhanced-Zune/releases), and check its SHA-256 against that release's `SHA256SUMS.txt`. Original Microsoft installation media is not bundled.
 
-**This is not complete editable source for every historical enhancement.** Some earlier changes remain frozen binary deltas. Rebuilding the installer around those deltas is different from regenerating every patched component from source. [The coverage table](docs/SOURCE-COVERAGE.md) describes that distinction explicitly.
+Close Zune first. When updating a previous enhancement version, use **Restore originals**, then **Install / verify**, keeping the verified backup. Do not manually delete or bypass an unknown-file warning. Read [INSTALLING.md](INSTALLING.md) for first installation, updates, prerequisites and recovery.
 
-The original engineering package recorded a byte-identical installer rebuild. [Verification and its limits](docs/VERIFICATION.md) explain what that establishes and what it does not.
+Crossfading in RC7 is under **Settings → Software → General → Crossfading**. It starts off, supports local audio, and follows pause, seek, volume and mute. It does not overlap a different track in Repeat One mode. The helper's runtime is bundled; a separate .NET 8 installation is not needed to use it.
 
-## Project history and participation
+## Source transparency
 
-Git history begins with an import of the preserved RC7 engineering source, followed by repository documentation. Earlier development commits were not preserved here; no reconstructed timeline is presented as original history. See [CHANGELOG.md](CHANGELOG.md).
+This repository contains installer source and the editable repeat-one repair/crossfade implementation, build scripts, tests and documentation. **Some older enhancements remain frozen binary patches, not complete editable source.** Recompiling the installer around those preserved patches is different from regenerating every patched component from source. [SOURCE-COVERAGE.md](docs/SOURCE-COVERAGE.md) identifies the available source and gaps.
 
-For problems, include the enhancement version, Windows version, actions that reproduce the issue, and whether crossfading is enabled. Remove usernames, music paths, device IDs and other personal information before sharing logs. Do not upload Microsoft installation files, private music, or signing keys. See [CONTRIBUTING.md](CONTRIBUTING.md).
+The documented toolchain reproduces the preserved RC7 installer byte for byte. See [BUILDING.md](BUILDING.md) and [verification limits](docs/VERIFICATION.md). Reproducibility is useful evidence, not a blanket safety guarantee.
 
-## Licensing
+Git history preserves the local repository-preparation checkpoints. Release snapshots are imported from preserved packages; no invented earlier development history or backdated commits are presented.
 
-Microsoft Zune remains proprietary. The repository's mixed source, patch and artwork provenance does **not** justify a blanket open-source license. Licensing of project-authored material remains to be decided before publication; dependency notices are retained. See [LICENSE.md](LICENSE.md) and [LICENSING-AND-SOURCES.md](LICENSING-AND-SOURCES.md).
+## Credits and license
+
+Microsoft and its licensors created Zune and its original assets. Our development started from a **pre-existing third-party dark-themed resource DLL, creator unknown**. The project owner did not create that original dark modification. Our later fixes, integration and additions are distinguished in [CREDITS.md](CREDITS.md) and the [provenance audit](docs/ATTRIBUTION-AUDIT.md).
+
+**Our own contributions use [0BSD](LICENSE): use, modify and redistribute them without requesting permission or giving the project owner credit.** This does not license Microsoft's components, inherited dark-theme work, dependencies or other third-party assets. See [LICENSE-SCOPE.md](LICENSE-SCOPE.md) and [licensing disclosures](LICENSING-AND-SOURCES.md).
+
+This is an independent community project, not affiliated with or supported by Microsoft. Bug reports and feature requests are welcome through [Issues](https://github.com/DillaJS/Enhanced-Zune/issues); remove personal information before attaching logs or screenshots.

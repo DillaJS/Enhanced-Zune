@@ -1,9 +1,9 @@
-# Contributing and reporting problems
+# Contributing
 
-This project is being prepared for publication. Licensing decisions for project-authored code remain open; contributions will not be accepted under an invented blanket license.
+Bug reports and feature requests are welcome through Issues. Include the enhancement version, Windows version/build, reproducible steps, expected/actual behavior and whether crossfading is enabled.
 
-For an issue, describe the expected behavior, actual behavior, repeatable steps, enhancement version, Windows version/build, and whether crossfading is enabled. A cropped screenshot can help. Scrub usernames, paths, account details, device identifiers and library contents from logs/screenshots before sharing them.
+Remove personal paths, account details, device identifiers and library contents from logs/screenshots. Do not upload Microsoft installers/DLLs, music, private photos, signing keys, credentials or registry exports.
 
-Do not submit Microsoft Zune DLLs/installers, original music, private photos, signing keys or registry exports. Original-file-dependent checks should use legitimately obtained local fixtures outside Git. Use disposable folders for installer tests; do not point investigation scripts at a working installation.
+The project's own contributions use 0BSD; see `LICENSE` and `LICENSE-SCOPE.md`. Contributions to project-authored code/documentation should use that same license. Do not imply permission over inherited Microsoft, dark-theme or other third-party material.
 
-Future code changes should explain the cause and behavior, include proportionate meaningful checks, and identify changes to any frozen payload and its checksums. Keep release downloads separate from ordinary source commits.
+Keep changes focused. Explain the behavior and relevant checks, distinguish tests from manual feedback, and identify any frozen-payload changes and new hashes. Original-file-dependent checks must use legitimately supplied local fixtures outside Git. Never run investigation or installer tests against a working installation as a substitute for disposable fixtures.
