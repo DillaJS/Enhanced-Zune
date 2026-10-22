@@ -1,28 +1,7 @@
-# What source is available?
+# Source coverage — RC6.2 branch
 
-This table describes the preserved RC7 engineering package. It distinguishes implementation source from frozen shipping inputs. It does not claim that all surviving development folders have already been recovered or audited.
+This historical snapshot supplies RC6.2 installer, media/prerequisite, background-slot and recovery C# source, build scripts, and historical test sources. Runtime enhancements, including RC6.2's original defective repeat implementation, remain frozen payload components.
 
-| Area | Available here | Important gap |
-| --- | --- | --- |
-| Installer and recovery | `Setup.cs`, `SetupUI.cs`, `BackgroundResources.cs`, `Slots.cs`, `RuntimeTrust.cs` | Some full transaction tests require private original-file and prior-release fixtures. |
-| Original-media handling and prerequisites | `MediaInstall.cs`, `Prerequisites.cs`, `WindowsComponents.cs`, `WindowsComponents.ps1` | Original Microsoft setup/media and Windows feature payloads are not included. |
-| Crossfade audio engine | `Enhancements/CrossfadeHost` including pinned host dependencies | The host alone is not a complete Zune integration build. |
-| Crossfade bridge/settings | `Enhancements/Bridge`, `Enhancements/CrossfadePatch` | Compatible Zune references, pre-patch inputs and signing workflow are required to regenerate shipping signed components. |
-| Repeat-one repair | `Enhancements/RepeatOne`, `Enhancements/RepeatOnePatch` | Original reference/resource inputs and signing workflow are required. |
-| Playback tests | `Enhancements/Tests` | Only the audio/output project is directly runnable as documented; other fixtures need their original harness. |
-| Earlier renderer, scaling, themes, artwork, photos and Mixview changes | Frozen patch payload, component hashes, feature/provenance notes | No complete standalone editable build of these historical changes is provided by this snapshot. Further surviving source may be recovered in future work. |
-| Microsoft Zune | User-supplied originals used by the installer | Microsoft source and full Microsoft DLLs are not included or relicensed. |
+RC7's editable repeat-one repair, crossfade helper/bridge/patchers and synthetic audio tests are available on [main](https://github.com/DillaJS/Enhanced-Zune/tree/main), not in this older branch. Other shared documentation can describe the newer candidate; it does not mean those additions are included in RC6.2.
 
-## Why the payload exists
-
-The installer embeds a ZIP of compressed added components and binary deltas, with hashes and compatibility metadata. Compiling this installer from source reproduces its packaging around these fixed bytes. It does not prove that every embedded helper was regenerated from the visible source.
-
-The payload contains executable material and derivative resource changes, not only plain-text patch instructions. Separating it as a release asset is repository organization, not a redistribution-rights determination. See [license scope](../LICENSE-SCOPE.md).
-
-## How history will be represented
-
-The first commit imports the preserved RC7 source. Later commits describe repository preparation and future changes. Earlier release notes can be added when supported by preserved packages; invented earlier commits or guessed dates will not be used.
-
-## Source availability is separate from ownership
-
-The Microsoft resource base, the inherited third-party dark edits and our subsequent code/asset work have different provenance. A source or patch file being visible here is not a license grant over its inputs or embedded content. Compiled `ManagementGeneral.uib` and derivative `ManagementGeneral.uix`, frozen payloads and historical patch material require rights review before any code-only publication. See [CREDITS.md](../CREDITS.md) and [the audit](ATTRIBUTION-AUDIT.md).
+Exact installer rebuilds require this version's frozen payload. Complete regeneration of every runtime enhancement is not provided. Microsoft code/assets, inherited dark modifications and dependencies are outside the project's 0BSD grant; see [LICENSE-SCOPE.md](../LICENSE-SCOPE.md) and [CREDITS.md](../CREDITS.md).

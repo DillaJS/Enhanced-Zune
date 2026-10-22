@@ -15,14 +15,14 @@ if($LASTEXITCODE -ne 0){throw 'Preference tests failed.'}
 if($LASTEXITCODE -ne 0){throw 'UI-render compilation failed.'}
 & (Join-Path $releaseRoot 'build\Render-Setup.exe') (Join-Path $releaseRoot 'build\setup-ui.png') (Join-Path $releaseRoot 'build\setup-ui-minimum.png')
 if($LASTEXITCODE -ne 0){throw 'UI render failed.'}
-$originalExe=Join-Path $releaseRoot 'dist\Enhanced-Zune-Setup-1.0.0-rc.7.exe'
+$originalExe=Join-Path $releaseRoot 'dist\Enhanced-Zune-Setup-1.0.0-rc.6.2.exe'
 $first=(Get-FileHash -LiteralPath $originalExe).Hash
 $repro=Join-Path $releaseRoot ('tests\repro-'+[Guid]::NewGuid().ToString('N'))
 New-Item -ItemType Directory -Path (Join-Path $repro 'build') -Force | Out-Null
 foreach($name in @('Setup.cs','SetupUI.cs','MediaInstall.cs','Prerequisites.cs','WindowsComponents.cs','RuntimeTrust.cs','Slots.cs','BackgroundResources.cs','WindowsComponents.ps1','installer.manifest','Build-Setup.ps1')){Copy-Item -LiteralPath (Join-Path $releaseRoot $name) -Destination (Join-Path $repro $name)}
 Copy-Item -LiteralPath (Join-Path $releaseRoot 'build\payload.zip') -Destination (Join-Path $repro 'build\payload.zip')
 & (Join-Path $repro 'Build-Setup.ps1')
-$second=(Get-FileHash -LiteralPath (Join-Path $repro 'dist\Enhanced-Zune-Setup-1.0.0-rc.7.exe')).Hash
+$second=(Get-FileHash -LiteralPath (Join-Path $repro 'dist\Enhanced-Zune-Setup-1.0.0-rc.6.2.exe')).Hash
 if($first -ne $second){throw 'Different-path installer rebuild was not byte-identical.'}
 @{status='passed';installer_sha256=$first;different_build_directory_sha256=$second;installer_rebuild_byte_identical=$true;isolated_test_results=(Get-Content (Join-Path $releaseRoot 'latest-test-path.txt') -Raw).Trim();uac_or_original_setup_executed=$false;working_zune_launched=$false;windows_reboot_tested=$false} | ConvertTo-Json | Set-Content -LiteralPath (Join-Path $releaseRoot 'QUALITY-RESULTS.json') -Encoding UTF8
 

@@ -24,7 +24,7 @@ namespace EnhancedZune {
   readonly CheckBox dpi=new CheckBox(),defaults=new CheckBox(),launch=new CheckBox();readonly Button browseButton=new Button(),finish=new Button();
   readonly Label status=new Label(),detail=new Label();readonly TableLayoutPanel banner=new TableLayoutPanel();
   readonly string[] worker;bool busy=false,completed=false,launchAllowed=false;string completedTarget="";public int Code=1;internal bool PreviewMode=false;
-  public SetupForm(string[] args){worker=args.Length>0?args:null;Text="Enhanced Zune Setup · 1.0.0 RC7";Font=new Font("Segoe UI",11);MinimumSize=new Size(800,800);Size=new Size(900,880);StartPosition=FormStartPosition.CenterScreen;AutoScaleMode=AutoScaleMode.Dpi;BackColor=Color.FromArgb(248,248,248);
+  public SetupForm(string[] args){worker=args.Length>0?args:null;Text="Enhanced Zune Setup · 1.0.0 RC6.2";Font=new Font("Segoe UI",11);MinimumSize=new Size(800,800);Size=new Size(900,880);StartPosition=FormStartPosition.CenterScreen;AutoScaleMode=AutoScaleMode.Dpi;BackColor=Color.FromArgb(248,248,248);
    TableLayoutPanel layout=new TableLayoutPanel{Dock=DockStyle.Fill,Padding=new Padding(24),ColumnCount=1,RowCount=10};Controls.Add(layout);
    foreach(int height in new[]{50,54,44,34,44,40,142})layout.RowStyles.Add(new RowStyle(SizeType.Absolute,height));layout.RowStyles.Add(new RowStyle(SizeType.AutoSize));layout.RowStyles.Add(new RowStyle(SizeType.AutoSize));layout.RowStyles.Add(new RowStyle(SizeType.Percent,100));
    layout.Controls.Add(new Label{Text="Enhanced Zune",Font=new Font("Segoe UI",24),ForeColor=Color.FromArgb(205,0,120),AutoSize=true});

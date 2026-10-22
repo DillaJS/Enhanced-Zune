@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-22",
+  "release": "1.0.0-rc.6.2",
+  "snapshot": "Imported preserved first-public source; not reconstructed chronological development",
+  "installer_sha256": "910D70A40DFC17190FCE2FF3531B10BC2BF249167CA5C3D9BC7ED63797AFD67F",
+  "matches_preserved_first_public_installer": true,
+  "only_test_script_privacy_change": "Parameterized ZIP fixture path; not an installer compilation input",
+  "installed_zune_modified_or_opened": false
+}
