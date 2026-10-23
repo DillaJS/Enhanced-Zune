@@ -6,13 +6,13 @@
   "files": [
     {
       "name": "CREDITS.md",
-      "bytes": 2974,
-      "sha256": "0F1194A061696F56ACC9522639AD371E73C07B78C0D3752907445BD8A08F96E6"
+      "bytes": 2933,
+      "sha256": "9841BAD784F6ADC11E681FC59A5912DB6DE01164A5BA78E3402B498689DCE316"
     },
     {
       "name": "Enhanced-Zune-1.0.0-rc.7-Engineering-Source.zip",
-      "bytes": 84001757,
-      "sha256": "90D8C07F07F5BBD0AF5C4540493A45C2A9AE1E50CC352B8566BDB2B670794801"
+      "bytes": 84001731,
+      "sha256": "B5B0D02C4A218B7D23AB983F38FEAC87D9D25511CF67B625DBC95F47409F7AA6"
     },
     {
       "name": "Enhanced-Zune-1.0.0-rc.7-payload.zip",
