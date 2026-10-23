@@ -6,13 +6,13 @@
   "files": [
     {
       "name": "CREDITS.md",
-      "bytes": 2978,
-      "sha256": "57B2623710684D8F44EBC06B8B60D3168F2C4F2FEFE521532F7941193B1B4B91"
+      "bytes": 2974,
+      "sha256": "0F1194A061696F56ACC9522639AD371E73C07B78C0D3752907445BD8A08F96E6"
     },
     {
       "name": "Enhanced-Zune-1.0.0-rc.6.2-Engineering-Source.zip",
-      "bytes": 17504738,
-      "sha256": "BFE5D1CFDA773EEA881077358E0966521D43CA967620C742A8ED233147508730"
+      "bytes": 17504717,
+      "sha256": "4F8C12FA4F600BD635ED19B496188CB0851E6CDFE8DC6505BD53A96A5F03959C"
     },
     {
       "name": "Enhanced-Zune-1.0.0-rc.6.2-payload.zip",
@@ -39,5 +39,6 @@
       "bytes": 2049,
       "sha256": "2DD20FC12481C0ED8FDEEA5BE61E2FBCE72F8724D6977A86C093CE0E43A44C54"
     }
-  ]
+  ],
+  "documentation_encoding": "UTF-8; GitHub/source documentation encoding corrected, installer/payload/compiler inputs unchanged"
 }

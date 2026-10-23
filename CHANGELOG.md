@@ -2,7 +2,7 @@
 
 # Changelog
 
-## 1.0.0 RC7 — local update candidate, not yet publicly released
+## 1.0.0 RC7 — published update candidate
 
 - Repair repeat one so clicking a different item works and playlist audio remains consistent with the displayed track.
 - Add optional crossfading under Settings → Software → General, off by default, with 0–10 seconds of overlap.
