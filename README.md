@@ -2,7 +2,7 @@
 
 Enhancements for the original **Microsoft Zune 4.8.2345 x64** desktop application on **Windows 10 and 11**. Familiar Zune, with display, customization, responsiveness and playback improvements—not a new player or a restoration of discontinued online services.
 
-[Download RC7](https://github.com/DillaJS/Enhanced-Zune/releases/tag/v1.0.0-rc.7) آ· [Installation](INSTALLING.md) آ· [Features](FEATURES.md) آ· [Build from source](BUILDING.md) آ· [Report a problem](https://github.com/DillaJS/Enhanced-Zune/issues/new/choose)
+[Download RC7](https://github.com/DillaJS/Enhanced-Zune/releases/tag/v1.0.0-rc.7) · [Installation](INSTALLING.md) · [Features](FEATURES.md) · [Build from source](BUILDING.md) · [Report a problem](https://github.com/DillaJS/Enhanced-Zune/issues/new/choose)
 
 ![Enhanced Zune Collection with the optional dark theme](docs/images/collection-dark.png)
 
