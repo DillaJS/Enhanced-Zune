@@ -2,16 +2,16 @@
 
 # Changelog
 
-## 1.0.0 RC7 â€” local update candidate, not yet publicly released
+## 1.0.0 RC7 — published update candidate
 
 - Repair repeat one so clicking a different item works and playlist audio remains consistent with the displayed track.
-- Add optional crossfading under Settings â†’ Software â†’ General, off by default, with 0â€“10 seconds of overlap.
+- Add optional crossfading under Settings → Software → General, off by default, with 0–10 seconds of overlap.
 - Include the tested pause/resume and paused-seeking corrections. Repeat one plays without overlap.
 - Bundle the audio component and its runtime; no separate .NET 8 installation is required for crossfading.
 - Retain original-Zune installation, prerequisite, backup, rollback and custom-background protections. Add verified RC6 recovery support.
 - Include the new enhancement source and tests alongside reproducible installer engineering source.
 
-## 1.0.0 RC6.2 â€” first publicly shared installer
+## 1.0.0 RC6.2 — first publicly shared installer
 
 - First version uploaded/shared with users, according to the project owner.
 - Still the version on the website as reported by the owner on 2026-10-22. No independent website check is claimed here.

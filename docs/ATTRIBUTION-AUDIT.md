@@ -1,6 +1,6 @@
 > Historical attribution audit. Its factual findings remain unchanged. For the current project license and publication workflow, see [LICENSE-SCOPE.md](../LICENSE-SCOPE.md) and [REDISTRIBUTION.md](REDISTRIBUTION.md). Earlier hold recommendations below do not assign new rights or override the owner's later preparation instructions.
 
-# Attribution audit â€” 2026-10-22
+# Attribution audit — 2026-10-22
 
 ## Scope and evidence
 

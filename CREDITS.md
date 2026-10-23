@@ -4,7 +4,7 @@
 
 Microsoft and its licensors created the original Zune desktop application, Iris/UIX framework, branding, fonts, original interface and assets. These are not creations of Enhanced Zune and are not made open source by this project.
 
-## Pre-existing third-party Dark Zune modification â€” creator unknown
+## Pre-existing third-party Dark Zune modification — creator unknown
 
 **Enhanced Zune development began with an already modified, third-party dark-themed `ZuneShellResources.dll`, not Microsoft's untouched resource DLL. The project owner did not create that original dark modification and claims no credit for it.**
 
